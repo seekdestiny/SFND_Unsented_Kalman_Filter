@@ -95,6 +95,9 @@ class UKF {
 
   // Sigma point spreading parameter
   double lambda_;
+
+ private:
+  void initializeWeights(); 
 };
 
 #endif  // UKF_H
